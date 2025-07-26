@@ -169,7 +169,7 @@ public:
     void displayContacts() const {
         Node* current = head;
         if (!current) {
-            cout << "No contacts available." << endl;
+            cout << "No contacts available!" << endl;
             return;
         }
         while (current) {
